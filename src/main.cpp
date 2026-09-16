@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello, my name is Kirill. I am from IU5-13/4" << endl;
+    cout << "Updated message!" << endl;
     return 0;
 }
