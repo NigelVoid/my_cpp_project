@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sem2.dir/link.d CMakeFiles/sem2.dir/src/sem2.cpp.o -o sem2

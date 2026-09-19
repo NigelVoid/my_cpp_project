@@ -129,6 +129,58 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named sem
+
+# Build rule for target.
+sem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sem
+.PHONY : sem
+
+# fast build rule for target.
+sem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem.dir/build.make CMakeFiles/sem.dir/build
+.PHONY : sem/fast
+
+#=============================================================================
+# Target rules for targets named sem2
+
+# Build rule for target.
+sem2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sem2
+.PHONY : sem2
+
+# fast build rule for target.
+sem2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem2.dir/build.make CMakeFiles/sem2.dir/build
+.PHONY : sem2/fast
+
+#=============================================================================
+# Target rules for targets named sem1_2
+
+# Build rule for target.
+sem1_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sem1_2
+.PHONY : sem1_2
+
+# fast build rule for target.
+sem1_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_2.dir/build.make CMakeFiles/sem1_2.dir/build
+.PHONY : sem1_2/fast
+
+#=============================================================================
+# Target rules for targets named sem1_3
+
+# Build rule for target.
+sem1_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sem1_3
+.PHONY : sem1_3
+
+# fast build rule for target.
+sem1_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_3.dir/build.make CMakeFiles/sem1_3.dir/build
+.PHONY : sem1_3/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +205,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/sem.o: src/sem.cpp.o
+.PHONY : src/sem.o
+
+# target to build an object file
+src/sem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem.dir/build.make CMakeFiles/sem.dir/src/sem.cpp.o
+.PHONY : src/sem.cpp.o
+
+src/sem.i: src/sem.cpp.i
+.PHONY : src/sem.i
+
+# target to preprocess a source file
+src/sem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem.dir/build.make CMakeFiles/sem.dir/src/sem.cpp.i
+.PHONY : src/sem.cpp.i
+
+src/sem.s: src/sem.cpp.s
+.PHONY : src/sem.s
+
+# target to generate assembly for a file
+src/sem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem.dir/build.make CMakeFiles/sem.dir/src/sem.cpp.s
+.PHONY : src/sem.cpp.s
+
+src/sem1_2.o: src/sem1_2.cpp.o
+.PHONY : src/sem1_2.o
+
+# target to build an object file
+src/sem1_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_2.dir/build.make CMakeFiles/sem1_2.dir/src/sem1_2.cpp.o
+.PHONY : src/sem1_2.cpp.o
+
+src/sem1_2.i: src/sem1_2.cpp.i
+.PHONY : src/sem1_2.i
+
+# target to preprocess a source file
+src/sem1_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_2.dir/build.make CMakeFiles/sem1_2.dir/src/sem1_2.cpp.i
+.PHONY : src/sem1_2.cpp.i
+
+src/sem1_2.s: src/sem1_2.cpp.s
+.PHONY : src/sem1_2.s
+
+# target to generate assembly for a file
+src/sem1_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_2.dir/build.make CMakeFiles/sem1_2.dir/src/sem1_2.cpp.s
+.PHONY : src/sem1_2.cpp.s
+
+src/sem1_3.o: src/sem1_3.cpp.o
+.PHONY : src/sem1_3.o
+
+# target to build an object file
+src/sem1_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_3.dir/build.make CMakeFiles/sem1_3.dir/src/sem1_3.cpp.o
+.PHONY : src/sem1_3.cpp.o
+
+src/sem1_3.i: src/sem1_3.cpp.i
+.PHONY : src/sem1_3.i
+
+# target to preprocess a source file
+src/sem1_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_3.dir/build.make CMakeFiles/sem1_3.dir/src/sem1_3.cpp.i
+.PHONY : src/sem1_3.cpp.i
+
+src/sem1_3.s: src/sem1_3.cpp.s
+.PHONY : src/sem1_3.s
+
+# target to generate assembly for a file
+src/sem1_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem1_3.dir/build.make CMakeFiles/sem1_3.dir/src/sem1_3.cpp.s
+.PHONY : src/sem1_3.cpp.s
+
+src/sem2.o: src/sem2.cpp.o
+.PHONY : src/sem2.o
+
+# target to build an object file
+src/sem2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem2.dir/build.make CMakeFiles/sem2.dir/src/sem2.cpp.o
+.PHONY : src/sem2.cpp.o
+
+src/sem2.i: src/sem2.cpp.i
+.PHONY : src/sem2.i
+
+# target to preprocess a source file
+src/sem2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem2.dir/build.make CMakeFiles/sem2.dir/src/sem2.cpp.i
+.PHONY : src/sem2.cpp.i
+
+src/sem2.s: src/sem2.cpp.s
+.PHONY : src/sem2.s
+
+# target to generate assembly for a file
+src/sem2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sem2.dir/build.make CMakeFiles/sem2.dir/src/sem2.cpp.s
+.PHONY : src/sem2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +310,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... sem"
+	@echo "... sem1_2"
+	@echo "... sem1_3"
+	@echo "... sem2"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/sem.o"
+	@echo "... src/sem.i"
+	@echo "... src/sem.s"
+	@echo "... src/sem1_2.o"
+	@echo "... src/sem1_2.i"
+	@echo "... src/sem1_2.s"
+	@echo "... src/sem1_3.o"
+	@echo "... src/sem1_3.i"
+	@echo "... src/sem1_3.s"
+	@echo "... src/sem2.o"
+	@echo "... src/sem2.i"
+	@echo "... src/sem2.s"
 .PHONY : help
 
 

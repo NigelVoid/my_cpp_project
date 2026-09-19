@@ -1,3 +1,7 @@
 /home/nigelvoid/projects/my_cpp_project/CMakeFiles/main.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/sem.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/sem2.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/sem1_2.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/sem1_3.dir
 /home/nigelvoid/projects/my_cpp_project/CMakeFiles/edit_cache.dir
 /home/nigelvoid/projects/my_cpp_project/CMakeFiles/rebuild_cache.dir
