@@ -1,0 +1,3 @@
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/main.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/edit_cache.dir
+/home/nigelvoid/projects/my_cpp_project/CMakeFiles/rebuild_cache.dir

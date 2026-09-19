@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nigelvoid/projects/my_cpp_project/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
